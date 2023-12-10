@@ -2,10 +2,6 @@ select *
 from master..CovidDeaths
 order by 3, 4
 
---Select *
---From master..CovidVaccinations$
---order by 3, 4
-
 select location, date, total_cases, new_cases, total_deaths, population
 from master..CovidDeaths
 order by 1, 2
